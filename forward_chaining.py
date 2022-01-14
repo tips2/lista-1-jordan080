@@ -108,7 +108,7 @@ class ForwardChaining:
                 goal = line[0]
 
             if read_state > 2:
-                self.output += "Dados no arquivo incorretos."
+                self.output += "Formatação incorreta do arquivo. Por favor, tente novamente."
                 return [], [], None
 
         return rules, facts, goal

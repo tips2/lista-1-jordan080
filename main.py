@@ -7,7 +7,7 @@ from mixed_chaining import MixedChaining
 program = ""
 
 while True:
-    print("Encadeamento para frente, para trás ou misto?")
+    print("Encadeamento para frente, para trás ou misto? Insira uma das seguintes siglas:")
     print("EF - Encadeamento para frente")
     print("ET - Encadeamento para trás")
     print("EM - Encadeamento misto")

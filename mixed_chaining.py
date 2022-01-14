@@ -102,7 +102,7 @@ class MixedChaining:
             if new_fact in ['Sim', 'sim', 'Não', 'não']:
                 break
             else:
-                print("Tente novamente.")
+                print("Tente novamente. Responda com sim ou não")
 
         if new_fact == 'Sim' or new_fact == 'sim':
             self.facts.append(rules[0])
@@ -204,7 +204,7 @@ class MixedChaining:
                 goal = line[0]
 
             if read_state > 2:
-                self.output += "Dados no arquivo incorretos."
+                self.output += "Formatação incorreta do arquivo. Por favor, tente novamente."
                 return [], [], None
 
         return rules, facts, goal
