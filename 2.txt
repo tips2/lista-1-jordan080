@@ -1,0 +1,19 @@
+#
+#
+# 1) Regras:
+Receitar_analgesico Dor_de_cabeca
+Gripe Dor_de_cabeca Garganta_inflamada Tosse
+Mononucleose_infecciosa Cansaco Dor_de_cabeca
+Amigdalite Cansaco Garganta_inflamada
+Estresse Cansaco
+Dengue Febre Dor_de_cabeca Enjoo
+Covid Febre Tosse Cansaco
+Resfriado Garganta_inflamada Coriza
+Catapora Febre Dor_de_cabeca Manchas_na_pele
+Sinusite Febre Cansaco Dor_na_face
+
+# 2) Fatos:
+Febre
+
+# 3) Objetivo:
+Catapora
